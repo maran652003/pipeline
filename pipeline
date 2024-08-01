@@ -4,7 +4,7 @@ stages {
     stage('Checkout') {
        steps {
       // Checkout code from Git repository
-      git url: 'https://github.com/Vishnu2k3/devops-lab-3.git', branch: 'main'
+      git url: https://github.com/maran652003/pipeline.git, branch: 'main'
         }
     }
    stage('Build') {
